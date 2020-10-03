@@ -1,0 +1,5 @@
+Unity bugs encountered:
+
+    ✔ when adding sprite skin for animating a sprate based object @done(20-10-03 20:04)
+        by adding bones the sprite dissapers with unity exception smthnsmthng transformation not correct. Cause of this is not cpmplete weight allocation to the bones/shapes in the sprite editor
+    
