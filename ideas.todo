@@ -1,0 +1,41 @@
+LudumDare47 - Stuck in the Loop - coop robot td endless scroller game with alchemy elements:
+    Levels:@critical 
+        ☐ generate tilemap from perlin noise
+        ☐ save generated map in chunks when explored
+        ☐ generate new adjacent chunks when on the edge
+        ☐ place tiles from tilemap dynamically to the grid
+    Player: @critical 
+        basic movement and animation:
+            ☐ create sprites for body, arms and legs
+            ☐ animate
+            ☐ add controller
+            ☐ add score
+        different bodies:
+            ☐ fighter
+            ☐ engineer
+        different weapon systems:
+            closerange, midrange, lrms
+            autoattack vs targeting
+            towers
+    Game:
+        simulate the round:
+            ☐ roundbased movement on a grid
+            ☐ pathfinding
+        record the round simulaton:
+            ☐ each action saves tick count, source, target, type and dmg
+        playback the recorded simulation:
+            ☐ move objects on the map and execute the actions
+    Coop:
+        signalr:
+            ☐ create hub webapi for coordination
+            ☐ client in the game
+        sync:
+            weapons:
+                ☐ fire animation
+                ☐ damage to enemies
+                ☐ kill count
+            enemies:
+                use entites with ID and Name, id is local, name is global @idea
+                ☐ spawnings
+                ☐ movement
+                ☐ death/live state
